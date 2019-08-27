@@ -1,0 +1,142 @@
+canvas {
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Exo", sans-serif;
+    color: white;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+
+    50% {background-position: 100% 50%;}
+
+    100% {background-position: 0% 50%;}
+}
+button{
+  display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+label{
+   display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+select{
+   display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: indigo;
+  color: white;
+  border-radius: 12px;
+}
+
+input{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid violet;
+    border-radius:15px;
+}
+button#ballcount {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+
+button#ballpower {
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+  border-radius: 12px;
+  padding: 4px 10px;
+}
+
+button#ballreset {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+
+button#ballcount:hover {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px rgba(0, 0, 130, 0.2), 4px 4px rgba(0, 0, 130, 0.15),
+    6px 6px rgba(0, 0, 130, 0.1);
+}
+
+button#ballpower:hover {
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 12px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2), 4px 4px rgba(0, 0, 0, 0.15),
+    6px 6px rgba(0, 0, 0, 0.1);
+}
+
+button#ballreset:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  border-radius: 12px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2), 4px 4px rgba(0, 0, 0, 0.15),
+    6px 6px rgba(0, 0, 0, 0.1);
+}
+
+button#ballsize {
+  color: black;
+  background-color: white;
+  border: 2px solid yellow;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+
+button#ballsize:hover {
+  background-color: yellow;
+  color: black;
+  border: 2px solid yellow;
+  border-radius: 12px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2), 4px 4px rgba(0, 0, 0, 0.15),
+    6px 6px rgba(0, 0, 0, 0.1);
+}
+
+button#reset {
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+  padding: 5px 10px;
+  border: 2px solid green;
+}
+
+button#reset:hover {
+  background-color: green;
+  color: white;
+  border: 2px solid green;
+  border-radius: 12px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2), 4px 4px rgba(0, 0, 0, 0.15),
+    6px 6px rgba(0, 0, 0, 0.1);
+}
