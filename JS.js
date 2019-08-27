@@ -1,3 +1,4 @@
+$(document).ready(function () {
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 //change score to get more points at start (for testing)
@@ -288,3 +289,4 @@ $("button#ballreset").click(function() {
     vy: 5
   };
 });
+}
